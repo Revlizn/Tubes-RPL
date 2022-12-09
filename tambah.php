@@ -70,7 +70,7 @@ if (isset($_POST["tambah"])) {
 
     <div class="container">
 
-        <h1>Tambah Data Masakan</h1>
+        <h1>Tambah Data Barang</h1>
 
         <a class="btn btn-success fw-bold" href="index.php">Kembali</a>
 
@@ -82,7 +82,7 @@ if (isset($_POST["tambah"])) {
 
                     <tr>
 
-                        <td><label for="nama">Nama Makanan</label></td>
+                        <td><label for="nama">Nama Barang</label></td>
 
                         <td>:</td>
 
@@ -124,13 +124,13 @@ if (isset($_POST["tambah"])) {
 
                             <select name="kategori" id="kategori">
 
-                                <option selected value="Makanan">Makanan</option>
+                                <option selected value="Makanan">Kue</option>
 
-                                <option value="Fast Food">Fast Food</option>
+                                <option value="Fast Food">Permen</option>
 
                                 <option value="Snack">Snack</option>
 
-                                <option value="Dessert">Dessert</option>
+                                <option value="Dessert">Jelly</option>
 
                                 <option value="Minuman">Minuman</option>
 

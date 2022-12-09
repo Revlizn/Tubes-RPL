@@ -47,7 +47,7 @@ $menu = ambil_data("SELECT DISTINCT * FROM pesanan
     </table><br>
     <table class="daftar-pesanan" cellpadding="5">
         <tr>
-            <th>Daftar Menu</th>
+            <th>Daftar Barang</th>
             <th>Harga</th>
             <th>Qty</th>
             <th>Total</th>
